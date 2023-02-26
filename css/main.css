@@ -1,0 +1,124 @@
+/* ▼ -main- */
+.container {
+  color: white;
+}
+/*.header {
+  height: 80px;
+  background-color: #000;
+}*/
+.main {
+  display: flex;
+  height: calc(100vh - 160px);
+}
+.box_left {
+  width: 160px;
+  background-color: #fff0f5;
+  color: #000000;
+}
+.box_center {
+  width: 100%;
+  background-color: #ffffff;
+}
+.box_right {
+  width: 160px;
+  background-color: #fff0f5;
+}
+.footer {
+  height: 80px;
+  background-color: #808080;
+}
+
+/* ▼ yesno */
+.box_yesno{
+    margin: 100px 150px 100px 150px;
+    display: block;
+}
+.view-top-yesno{
+    height: 60%;
+}
+.view-bottom-yesno{
+    height: 40%;
+}
+
+/* ▼ タロット */
+.box_tarot{
+    margin: 100px 150px 100px 150px;
+    font-size: 20px;
+    line-height: 2;
+}
+.view-left{
+   width: 100px;
+  float: left;
+
+}
+.view-right{
+    
+    height: 500px;
+  width: 1200px;
+  float: right;
+}
+/* ▼ クレジット */
+.credit{
+     height: calc(100vh - 160px);
+    text-align:  center;
+}
+.contact{
+    text-align:  center;
+}
+.contact .title{
+   font-size: 75px;
+}
+.contact .subtitle{
+   font-size: 50px;
+}
+.contact p{
+   font-size: 30px;
+}
+/* ▼ お問い合わせ */
+#question {
+    padding: 0 50px;
+        height: 100%;
+        overflow-y: scroll;          /* 縦方向にスクロール可能にする */
+	font-family: メイリオ;
+	font-size: 12px; /*全体のフォントサイズ*/
+}
+#question h3 {
+	font-size: 16px;
+	margin-top: 32px;
+}
+#question dl {
+	border: 1px solid #ccc;
+}
+#question dt {
+font-weight: bold;
+	color: #111;
+	background: #f4f4f4; /* 「Q」タイトルの背景色 */
+	padding: 8px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+#question dt:first-child {
+	border-top: none;
+}
+#question dt:before {
+	content: "Q.";
+	font-weight: bold;
+	margin-right: 8px;
+}
+#question dd {
+	padding: 16px 16px 24px 30px;
+	margin: 0;
+	line-height: 140%;
+}
+#question dd:first-line {
+	font-weight: bold;
+	color: #bf0000;
+}
+#question dd:before {
+	content: "A.";
+	font-weight: bold;
+	margin-right: 8px;
+	margin-left: -21px;
+}
+
+
